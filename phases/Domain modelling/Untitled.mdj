@@ -271,7 +271,7 @@
 											"font": "Arial;13;1",
 											"left": 301,
 											"top": 199,
-											"width": 121.34814453125,
+											"width": 124.9599609375,
 											"height": 13,
 											"text": "Send a tool-request"
 										},
@@ -306,7 +306,7 @@
 									"font": "Arial;13;0",
 									"left": 296,
 									"top": 192,
-									"width": 131.34814453125,
+									"width": 134.9599609375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF4nMDOFAj2fcY="
@@ -329,7 +329,7 @@
 							"containerChangeable": true,
 							"left": 296,
 							"top": 192,
-							"width": 131.34814453125,
+							"width": 134.9599609375,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF4nMDOFAj1nn4="
