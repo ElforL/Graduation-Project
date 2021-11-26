@@ -26718,7 +26718,7 @@
 												"$ref": "AAAAAAF9Q4ky02rKU/M="
 											},
 											"edgePosition": 1,
-											"text": "1 : submit(cardDetails)"
+											"text": "submit(cardDetails)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -26829,7 +26829,7 @@
 												"$ref": "AAAAAAF9Q4XIWmouZcM="
 											},
 											"edgePosition": 1,
-											"text": "2 : token = genToken(cardDetails)"
+											"text": "token = genToken(cardDetails)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -26940,7 +26940,7 @@
 												"$ref": "AAAAAAF9Q4zNb2szMv8="
 											},
 											"edgePosition": 1,
-											"text": "3 : response = addSourceFromToken(token)"
+											"text": "response = addSourceFromToken(token)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -27051,7 +27051,7 @@
 												"$ref": "AAAAAAF9Q43IzmtLu2I="
 											},
 											"edgePosition": 1,
-											"text": "4 : ckoRes = payments.request(token, 0)"
+											"text": "ckoRes = payments.request(token, 0)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -27359,7 +27359,7 @@
 												"$ref": "AAAAAAF9Q59X4myIL6A="
 											},
 											"edgePosition": 1,
-											"text": "5 : Declined"
+											"text": "Declined"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -27471,7 +27471,7 @@
 												"$ref": "AAAAAAF9Q6Dd8WykMIc="
 											},
 											"edgePosition": 1,
-											"text": "6 : showDeclinedDialog"
+											"text": "showDeclinedDialog"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -27582,7 +27582,7 @@
 												"$ref": "AAAAAAF9Q6Z2yWz/5pI="
 											},
 											"edgePosition": 1,
-											"text": "7 : addUserCardToFirestore(ckoRes.source)"
+											"text": "addUserCardToFirestore(ckoRes.source)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -27693,7 +27693,7 @@
 												"$ref": "AAAAAAF9Q6ge9W0WmGE="
 											},
 											"edgePosition": 1,
-											"text": "8 : addUserCkoCustomerIdToFirestore(ckoRes.customer.id)"
+											"text": "addUserCkoCustomerIdToFirestore(ckoRes.customer.id)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -27817,7 +27817,7 @@
 												"$ref": "AAAAAAF9Q6yNkG1gvxg="
 											},
 											"edgePosition": 1,
-											"text": "9 : showSuccessDialog"
+											"text": "showSuccessDialog"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -27928,7 +27928,7 @@
 												"$ref": "AAAAAAF9Q63kvG16QWs="
 											},
 											"edgePosition": 1,
-											"text": "10 : redirectUrl"
+											"text": "redirectUrl"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -28040,7 +28040,7 @@
 												"$ref": "AAAAAAF9Q64MUG2RdgU="
 											},
 											"edgePosition": 1,
-											"text": "11 : open3dsVerificationScreen"
+											"text": "open3dsVerificationScreen"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -28151,7 +28151,7 @@
 												"$ref": "AAAAAAF9Q6/p5W4pfZI="
 											},
 											"edgePosition": 1,
-											"text": "12 : enter3dsCode"
+											"text": "enter3dsCode"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -28262,7 +28262,7 @@
 												"$ref": "AAAAAAF9Q7C3FW5CTmg="
 											},
 											"edgePosition": 1,
-											"text": "13 : sendCardVerifiedEvent"
+											"text": "sendCardVerifiedEvent"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -28373,7 +28373,7 @@
 												"$ref": "AAAAAAF9Q7F9IG5aMMU="
 											},
 											"edgePosition": 1,
-											"text": "14 : addUserCardToFirestore(ckoRes.source)"
+											"text": "addUserCardToFirestore(ckoRes.source)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -28484,7 +28484,7 @@
 												"$ref": "AAAAAAF9Q7Glz25wWIk="
 											},
 											"edgePosition": 1,
-											"text": "15 : addUserCkoCustomerIdToFirestore(ckoRes.customer.id)"
+											"text": "addUserCkoCustomerIdToFirestore(ckoRes.customer.id)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -28578,7 +28578,8 @@
 									"height": 105,
 									"text": "In Card verification if the payment status is \"Pending\", it means the user need to authenticate with 3D-Secure.\nAfter authentication a webhook event will be sent from Checkout to a cloud function which will update Firestore (the database)."
 								}
-							]
+							],
+							"showSequenceNumber": false
 						}
 					],
 					"messages": [
@@ -28914,7 +28915,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF9QYiW757JvqU="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -28931,7 +28933,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF9QYiW757JvqU="
 					},
-					"name": "Role4"
+					"name": "Role4",
+					"type": ""
 				}
 			]
 		}
