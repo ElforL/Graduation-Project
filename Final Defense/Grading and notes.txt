@@ -1,0 +1,13 @@
+The grade i got for the presentation was 30/35.
+Details: Implementation MTA (21/25); Presentation 2 (9/10);
+
+However, I DID NOT finish the whole powerpoint slides. The tutor asked me to stop the slides and go to the actual app and code after slide #19
+
+The tutor then asked me to run the app and show some of the use cases like how to add a new tool, send a request... etc.
+Then asked me to show the code for sending a new tool-request.
+
+If i had to do it again, I would show more of how the app works. For example, a viedeo or series of slides of how to create a post, send a request and other features.
+Instead of focusing on the building details (e.g., Firebase, Flutter etc).
+Because I felt a lot of work went unnoticed. Like, the payments implementaion for example.
+
+STILL, ASK YOUR TUTOR AND FIND OUT WHAT'S THE BEST APPROACH.
