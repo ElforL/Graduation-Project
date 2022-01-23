@@ -53,4 +53,4 @@ List of the uncommon file formats and how to open them:
   * Can be opened using any text editor (e.g., notepad)
 * `xmind`:
   * __Software:__ XMind.
-  * __Use:__ mind maps. used to create the database map image.
+  * __Use:__ mind maps. used to create the [database map image](Report/images/Firestore.png).
