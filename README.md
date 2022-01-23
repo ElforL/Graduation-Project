@@ -41,4 +41,16 @@ For the implentation code and files check [ElforL/rentool](https://github.com/El
     <td>31/35</td>
   </tr>
 </tbody>
-</table
+</table>
+
+## Files Formats
+List of the uncommon file formats and how to open them:
+* `.mdj`:
+  * __Software:__ StarUML
+  * __Use:__ UML diagrams
+* `.md`:
+  * Markdown
+  * Can be opened using any text editor (e.g., notepad)
+* `xmind`:
+  * __Software:__ XMind.
+  * __Use:__ mind maps. used to create the database map image.
