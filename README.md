@@ -11,3 +11,34 @@ This project aims to create an online e-commerce platform that allows people to 
 
 ## T471 (2021)
 For the implentation code and files check [ElforL/rentool](https://github.com/ElforL/rentool)
+
+### Grades:
+<table>
+<thead>
+  <tr>
+    <th rowspan="2">T471-1</th>
+    <th colspan="2">Report 1</th>
+    <th>20/25</th>
+  </tr>
+  <tr>
+    <th colspan="2">Presentation 1</th>
+    <th>3/5</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="3">T471-2</td>
+    <td rowspan="2">Final Defense</td>
+    <td>Implementation MTA</td>
+    <td>21/25</td>
+  </tr>
+  <tr>
+    <td>Presentation 2</td>
+    <td>9/10</td>
+  </tr>
+  <tr>
+    <td colspan="2">Report 2</td>
+    <td>31/35</td>
+  </tr>
+</tbody>
+</table
